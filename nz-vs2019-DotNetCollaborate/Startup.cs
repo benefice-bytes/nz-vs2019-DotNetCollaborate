@@ -36,6 +36,7 @@ namespace nz_vs2019_DotNetCollaborate
                     await context.Response.WriteAsync("<br>Welcome to my site.");
                     await context.Response.WriteAsync("<br>Asp.NET Core 3.1 Tutorial");
                     await context.Response.WriteAsync("<br>Introduction to .NET Core 3.1");
+                    await context.Response.WriteAsync("<br>Garbage Collection");
                 });
             });
         }
